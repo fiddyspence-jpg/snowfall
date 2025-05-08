@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # Load secret token
-NOAA_TOKEN = st.secrets["NOAA_API_TOKEN"]
+NOAA_TOKEN = st.secrets[KCXhuxVVfqigkxFLpsKoNrknfxnmwtrJ]
 STATION_ID = "GHCND:USC00106048"  # Ketchum, Idaho station
 
 st.set_page_config(page_title="Snowfall vs Snow Removal Costs", page_icon="❄️")
